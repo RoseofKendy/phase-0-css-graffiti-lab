@@ -1,1 +1,35 @@
-/* write your override styles here */
+/* Override the first graffiti tag */
+body #wall div.tag-1 {
+    background: none;
+  }
+  
+  /* Override the second graffiti tag */
+  body #wall div#tag-2 {
+    background: none;
+  }
+  
+  /* Override the third graffiti tag */
+  body #wall div#tag-3.slick.wicked {
+    background: none;
+  }
+  
+  /* Override the fourth graffiti tag */
+  body #wall div.parent div#tag-4 {
+    background: none;
+  }
+  
+  /* Override the fifth graffiti tag */
+  body #wall div.parent div#tag-5.slick {
+    background: none;
+  }
+  
+  /* Override the sixth graffiti tag */
+  body #wall div.parent div:last-child div#tag-6 {
+    background: none;
+  }
+  
+  /* Override the seventh graffiti tag */
+  body #wall div.parent div > div#tag-7.slick {
+    background: none;
+  }
+  
